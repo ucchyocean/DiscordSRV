@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.scarsz.discordsrv</groupId>
     <artifactId>DiscordSRV</artifactId>
-    <version>11.0</version>
+    <version>11.0-LC</version>
     <url>https://dev.bukkit.org/bukkit-plugins/discordsrv/</url>
 
     <licenses>
@@ -108,6 +108,10 @@
             <url>http://dev.escapecraft.com/maven</url>
         </repository>
         <repository>
+            <id>LunaChat</id>
+            <url>https://raw.github.com/ucchyocean/mvn-repo/master</url>
+        </repository>
+        <repository>
             <id>spigot-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
@@ -167,6 +171,12 @@
             <groupId>com.scarsz</groupId>
             <artifactId>VentureChat</artifactId>
             <version>2.9.8</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.ucchyocean</groupId>
+            <artifactId>LunaChat</artifactId>
+            <version>2.8.6</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
